@@ -1,0 +1,3 @@
+.footer {
+   @apply flex justify-center items-center text-[12px] font-light text-gray-700
+}

@@ -1,0 +1,18 @@
+.mainlist {
+  @apply flex justify-center items-center select-none;
+}
+.mainlist ul {
+  @apply grid grid-cols-2 w-[250px] gap-2 sm:w-[450px] items-center justify-stretch;
+  @apply sm:grid-cols-3 lg:grid-cols-4 sm:gap-2 lg:gap-8 xl:gap-12;
+}
+.mainlist li {
+  @apply flex gap-1 text-zinc-400 transition duration-100;
+  @apply cursor-pointer sm:w-[160px] lg:gap-1 lg:m-3;
+}
+.mainlist li:hover {
+  @apply text-zinc-900;
+}
+.icon {
+  @apply text-[22px] text-red-400;
+  @apply xl:text-[28px];
+}

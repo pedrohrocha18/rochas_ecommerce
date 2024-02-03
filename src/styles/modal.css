@@ -1,0 +1,56 @@
+.fade {
+   background-color: #794f4f;
+   height: 100vh;
+   opacity: 0.8;
+   left: 0;
+   top: 0;
+   position: fixed;
+   width: 100%;
+}
+.modal {
+   background-color: white;
+   border-radius: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   left: 0;
+   height: auto;
+   margin: 0 auto;
+   padding: 25px;
+   position: absolute;
+   right: 0;
+   text-align: center;
+   top: 10%;
+   width: 300px;
+   z-index: 1;
+}
+.title_car {
+   font-size: 20px;
+   font-weight: bold
+}
+.modal_close {
+   @apply text-red-400;
+   font-size: 22px;
+   margin-left: 2rem;
+   padding: 0;
+   transition: 0.5s;
+}
+.modal_close:hover {
+   @apply text-red-500
+}
+.modal_close:active {
+   @apply text-red-600
+}
+.dados_car {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 2rem;
+   width: 300px;
+}
+.quantd_item_car {
+   font-size: 13px;
+}
+.quantd_item_remove {
+   font-size: 13px;
+   text-decoration: underline;
+}

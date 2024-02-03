@@ -1,0 +1,14 @@
+@import url(header.css);
+@import url(mainSection.css);
+@import url(footer.css);
+@import url(mainlist.css);
+@import url(mainproducts.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(250, 250, 250);
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}

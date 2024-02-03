@@ -1,0 +1,41 @@
+.header {
+  @apply w-[100%] flex items-center justify-around gap-12 select-none;
+}
+.logo {
+  @apply md:w-[60px];
+}
+.marca {
+  @apply text-gray-500 gap-1 items-center hidden sm:flex text-[20px] text-center lg:text-[30px] lg:gap-3;
+}
+.marca span {
+  @apply text-gray-800 font-black text-[25px] lg:text-[35px];
+}
+.div_icons {
+  @apply flex items-center justify-center gap-2;
+}
+.icons, .icon_heart {
+  @apply text-[40px] cursor-pointer;
+}
+.icon_heart {
+  @apply text-red-300;
+  transition: 0.5s;
+}
+.icon_heart:hover {
+  @apply text-red-500;
+}
+.cart {
+  @apply text-zinc-400 pr-0;
+  transition: 0.5s;
+}
+.cart:hover {
+  @apply text-zinc-800;
+}
+.div_descCart {
+  @apply text-zinc-500;
+}
+.descCart {
+  @apply text-[12px]
+}
+.descCart:hover {
+  @apply text-black;
+}

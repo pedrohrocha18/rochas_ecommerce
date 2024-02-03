@@ -1,0 +1,17 @@
+/* Search */
+.mainSection {
+  @apply w-full flex flex-col justify-center items-center p-[20px];
+}
+.div_search {
+  @apply flex justify-center gap-2 w-[80vw] items-center m-2
+}
+.search {
+  @apply w-[250px] border border-zinc-300 rounded-[6px] overflow-hidden m-2;
+  @apply md:w-[500px] p-[6px]
+}
+.search:hover {
+  @apply border-zinc-600;
+}
+.icon_search {
+  @apply text-[20px] cursor-pointer
+}
